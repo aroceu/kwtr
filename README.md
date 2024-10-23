@@ -1,6 +1,6 @@
 # Know Where To Run
 
-### About
+## About
 *Know Where To Run* is a text-based virtual fanfiction in the form of an interactive web game. The fic is a Last of Us AU featuring characters from Haikyuu!!, with the main characters and pairing being Kiyoko/Yui. It was submitted for the Sports Anime Shipping Olympics 2015 Main Round 2 as a response to the prompt "Sins &amp; Virtues," and achieved 3rd place out of 27.
 
 **Collaborators/Roles:** Icie (code and writing), labocat (writing), sour_gummies (writing), feasted (brainstorming), myself (code/design/host, light writing)
@@ -11,7 +11,7 @@
 
 **Additional Tags:** Zombies, rot and decay, food, needles
 
-### Features
+## Features
 
 - Best viewed on desktop
 - Tested in Chrome, Safari, and Firefox
