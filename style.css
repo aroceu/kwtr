@@ -1,0 +1,277 @@
+body{
+	background: #222222;
+	font: normal 100%/150% 'Merriweather', serif;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+#justice, #prudence, #temperance, #charity, #courage, #faith, #hope{
+	display: inline-block;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes fadein {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+ 
+/* Standard syntax */
+@keyframes fadein {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+   
+/* Chrome, Safari, Opera */
+@-webkit-keyframes fadeout {
+    100% {opacity: 0;}
+}
+ 
+/* Standard syntax */
+@keyframes fadeout {
+    100% {opacity: 0;}
+}
+
+ 
+a.vice:link, a.vice:visited{
+	color: #888888;
+	text-decoration: none;
+	border: 1px #888888 dotted;
+	padding: 3px;
+	width: 13em;
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	transition: all 0.5s;
+	overflow: hidden;
+	font: normal 90% 'Merriweather', serif;
+	letter-spacing: 2px;
+	display: inline-block;
+	text-align: center;
+	text-transform: uppercase;
+	border-radius: 0px;
+	cursor: crosshair;
+}
+
+a.vice:hover, a.vice:active, a.vice:focus{
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	transition: all 0.5s;
+		border: 1px dotted #222222;
+	color: #61140a;
+}
+
+.fic {
+    padding: 100px;
+    position:absolute;
+    display: none;
+}
+
+.fictext{
+    background: #ffffff;
+    padding: 50px;
+    height: 100%;
+    overflow-y: scroll;
+}
+ 
+.ficVisible{
+    padding: 5% 10%;
+    position:absolute;
+    display: inline;
+    left:0%;
+    top: 0%;
+    width: 80%;
+    -webkit-animation: fadein 3s 1; /* Chrome, Safari, Opera */
+    animation: fadein 3s 1;
+    background: #222222;
+}
+   
+.ficFade{
+    padding: 10%;
+    position:absolute;
+    left:0%;
+    top: 0%;
+    width: 80%;
+    opacity: 0%;  
+    -webkit-animation: fadeout 3s 1; /* Chrome, Safari, Opera */
+    animation: fadeout 3s 1;
+    animation-fill-mode: forwards;
+}
+
+.x{
+	float:right;
+	right: 11%;
+    top: 20px;
+	position: absolute;
+}
+
+a.x:link, a.x:visited{
+	color: #999999;
+	text-transform: uppercase;
+	font: normal 80% 'Merriweather', serif;
+	text-decoration: none;
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	transition: all 0.5s;
+	cursor: crosshair;
+}
+
+a.x:hover, a.x:active, a.x:focus{
+	color: #666666;
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	transition: all 0.5s;
+}
+
+#justice{
+	position: absolute;
+	left: 28%;
+    top: 13%;
+}
+
+#prudence{
+	position: absolute;
+	left: 14%;
+    top: 48%;
+}
+
+#temperance{
+	position: absolute;
+    bottom: 13%;
+    left: 28%;
+}
+
+#charity{
+	position: absolute;
+    top: 13%;
+    right: 28%;
+}
+
+#courage{
+	position: absolute;
+    top: 48%;
+    right: 14%;
+}
+
+#faith{
+	position: absolute;
+    bottom: 13%;
+    right: 28%;
+}
+
+#hope{
+	position: absolute;
+    top: 48%;
+    left: 42%;
+}
+
+.hope{
+	color: #4f4f4f;
+	border: #4f4f4f 1px dotted;
+	text-decoration: none;
+	padding: 3px;
+	width: 13em;
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	transition: all 0.5s;
+	overflow: hidden;
+	font: normal 90% 'Merriweather', serif;
+	letter-spacing: 2px;
+	display: inline-block;
+	text-align: center;
+	text-transform: uppercase;
+	border-radius: 0px;
+	text-decoration:line-through;
+	cursor: default;
+}
+
+.hopeReady{
+        text-decoration: none;
+        color: #aaaaaa;
+border: 1px solid #aaaaaa;
+        padding: 8px;
+        width: 15em;
+        -webkit-transition: all 1.5s;
+        -moz-transition: all 1.5s;
+        transition: all 1.5s;
+    transition-timing-function: ease-in;
+    -webkit-transition-timing-function: ease-in;
+        overflow: hidden;
+        font: normal 90% 'Merriweather', serif;
+        letter-spacing: 2px;
+        display: inline-block;
+        text-align: center;
+        text-transform: uppercase;
+        border-radius: 0px;
+    transform:translate(-8px,-8px); 
+    -webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	transition: all 0.5s; 
+	cursor: crosshair;
+}
+
+.hopeReady:hover, .hopeReady:focus{
+        border: 1px #61140a solid;
+    color: #61140a;
+-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	transition: all 0.5s;
+}
+
+#end{
+	background: #222222;
+	color: #fafafa;
+	text-align: center;
+	height: 15em;
+	font: normal 230% 'Merriweather';
+    letter-spacing: 5px;
+    padding-top: 5em;
+    overflow: hidden;
+}
+
+a.replay:link, a.replay:visited{
+	text-decoration: none;
+	color: #61140a;
+	letter-spacing: 0;
+	font: italic 40% 'Merriweather', serif;
+	-webkit-transition: all 1s;
+	-moz-transition: all 1s;
+	transition: all 1s;
+	cursor: crosshair;
+}
+
+a.replay:hover, a.replay:active, a.replay:focus{
+	color: #bbbbbb;
+	-webkit-transition: all 1s;
+	-moz-transition: all 1s;
+	transition: all 1s;
+}
+
+div.hidden {
+    display: none;
+}
+
+.read{
+        color: #4f4f4f;
+        border: #222222 1px dotted;
+        text-decoration: none;
+        padding: 3px;
+        width: 13em;
+        overflow: hidden;
+        font: normal 90% 'Merriweather', serif;
+        letter-spacing: 2px;
+        display: inline-block;
+        text-align: center;
+        text-transform: uppercase;
+        border-radius: 0px;
+        cursor: crosshair;
+}
+
+::selection{
+background: #1e1e1e;
+color: #dddddd;
+}
+
+::-moz-selection{
+background: #1e1e1e;
+color: #dddddd;
+}

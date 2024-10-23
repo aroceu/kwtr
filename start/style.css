@@ -1,0 +1,261 @@
+body{
+	background: #222222;
+	font: normal 100%/150% 'Merriweather', serif;
+	margin: 0;
+	padding: 0;
+}
+
+#justice, #prudence, #temperance, #charity, #courage, #faith, #hope{
+	display: inline-block;
+}
+
+#navigation{
+bottom: 0;
+position: fixed;
+width: 100%;
+text-align: center;
+background: #1c1c1c;
+}
+
+#navigation ul{
+display: inline;
+list-style-type: none;
+-webkit-padding-start: 0px !important;
+}
+
+#navigation li{
+display: inline-block;
+padding: 7px 30px;
+}
+
+a.vice:link, a.vice:visited{
+color: #888888;
+}
+
+a.vice:hover, a.vice:active, a.vice:focus{
+color: #61140a;
+} 
+
+
+.virtue{
+ width: 100%;
+  max-width: 1920px;
+  min-height: 1200px; 
+  text-align: center;
+  margin: 20% auto 0 auto;
+  color: #888888;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font: normal 120% 'Merriweather', serif;
+  }
+  
+a:link, a:visited{
+color: #61140a;
+text-decoration: none;
+-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	transition: all 0.5s;
+	cursor: crosshair;
+}
+
+a:hover, a:active, a:focus{
+color: #888888;
+-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	transition: all 0.5s;
+}
+
+.fic {
+    padding: 100px;
+}
+
+.fictext{
+    background: #ffffff;
+    padding: 50px;
+}
+ 
+.ficVisible{
+    padding: 5% 10%;
+    position:absolute;
+    display: inline;
+    left:0%;
+    top: 0%;
+    width: 80%;
+    -webkit-animation: fadein 3s 1; /* Chrome, Safari, Opera */
+    animation: fadein 3s 1;
+    background: #222222;
+}
+   
+
+a.hope{
+	 color: #888888;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  cursor: text;
+}
+
+a.sloth{
+  font-size: 500%;
+}
+
+#end{
+	background: #222222;
+	color: #fafafa;
+	text-align: center;
+	height: 15em;
+	font: normal 230% 'Merriweather';
+    letter-spacing: 5px;
+    padding-top: 20em;
+    bottom: 0;
+}
+
+a.replay:link, a.replay:visited{
+	text-decoration: none;
+	color: #61140a;
+	letter-spacing: 0;
+	font: italic 40% 'Merriweather', serif;
+	-webkit-transition: all 1s;
+	-moz-transition: all 1s;
+	transition: all 1s;
+}
+
+a.replay:hover, a.replay:active, a.replay:focus{
+	color: #bbbbbb;
+	-webkit-transition: all 1s;
+	-moz-transition: all 1s;
+	transition: all 1s;
+}
+
+.read{
+        color: #333333;
+        border: #333333 1px dotted;
+        text-decoration: none;
+        padding: 3px;
+        width: 13em;
+        overflow: hidden;
+        font: normal 90% 'Merriweather', serif;
+        letter-spacing: 2px;
+        display: inline-block;
+        text-align: center;
+        text-transform: uppercase;
+        border-radius: 0px;
+}
+
+
+::selection{
+background: #1e1e1e;
+color: #dddddd;
+}
+
+::-moz-selection{
+background: #1e1e1e;
+color: #dddddd;
+}
+
+/* tablets and landscape */
+
+@media only screen and (max-width: 960px) and (min-width: 431px) {
+
+html {
+-webkit-text-size-adjust: none;
+}
+
+#navigation{
+  display: none;
+}
+
+.virtue{
+  font-size: 200%;
+}
+
+.virtue a:link, .virtue a:visited{
+  border-bottom: 3px solid #61140a;
+  -webkit-transition: none;
+  -moz-transition: none;
+  transition: none;
+}
+
+.virtue a:hover, .virtue a:active, .virtue a:focus{
+  border-bottom: none;
+  color: #61140a;
+  -webkit-transition: none;
+  -moz-transition: none;
+  transition: none;
+}
+
+a.hope{
+  border-bottom: none !important;
+}
+
+a.sloth{
+  border-bottom: none !important;
+}
+
+.fic{
+  padding: 30px;
+}
+
+.fictext{
+  padding: 20px 30px;
+  font-size: 95%;
+}
+
+#end{
+  font-size: 250%;
+}
+
+}
+
+/* smartphones */
+
+@media only screen and (max-width: 430px) and (min-width: 0px) {
+
+html {
+-webkit-text-size-adjust: none;
+}
+
+#navigation{
+  display: none;
+}
+
+.virtue{
+  font-size: 300%;
+  line-height: 180%;
+}
+
+.virtue a:link, .virtue a:visited{
+  display: block;
+  -webkit-transition: none;
+  -moz-transition: none;
+  transition: none;
+}
+
+.virtue a:hover, .virtue a:active, .virtue a:focus{
+  -webkit-transition: none;
+  -moz-transition: none;
+  transition: none;
+}
+
+a.hope{
+  border-bottom: none !important;
+}
+
+a.sloth{
+  border-bottom: none !important;
+}
+
+.fic{
+  padding: 0px;
+}
+
+.fictext{
+  padding: 20px;
+  font-size: 90%;
+}
+
+#end{
+  font-size: 450%;
+  line-height: 120%;
+}
+
+}
