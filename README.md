@@ -7,9 +7,9 @@
 
 **Rating:** Explicit, for sexual content and gore
 
-**Major Tags:**Character deaths (off screen), gore - body horror and general violence, blood, body decay, spores and cordyceps-esque infections, mutilation - puncturing the skin, vomit, sexual content
+**Major Tags:** Character deaths (off screen), gore - body horror and general violence, blood, body decay, spores and cordyceps-esque infections, mutilation - puncturing the skin, vomit, sexual content
 
-**Additional Tags:**Zombies, rot and decay, food, needles
+**Additional Tags:** Zombies, rot and decay, food, needles
 
 ### Features
 
